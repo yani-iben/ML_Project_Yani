@@ -1,0 +1,29 @@
+column,description
+fid,Feature ID from GIS export
+address,Full address string from geocoder
+index,Index from original GeoDataFrame
+lower_geo_,Lower-cased address string used for matching
+geo_addres,Standardized geocoded address from GIS
+PD_Text_Ad,Original text address from police department
+RecordID,Unique incident identifier from CPD data
+Offense,Reported type/category of crime
+IncidentID,Incident ID from police reporting system
+BlockNumbe,Original numeric block number of incident
+StreetName,Original street name of incident
+Agency,Reporting agency
+DateReport,Original date/time string of report
+HourReport,Hour code from original data
+ReportingO,Reporting officer name or ID
+BlockNum_S,String representation of block number
+Street_Add,Combined block + street address used for geocoding
+NeighborhoodInfoOBJECTID,Internal neighborhood polygon ID
+NeighborhoodInfoBEAT_NO,Police beat number
+NeighborhoodInfoNAME,Neighborhood name
+NeighborhoodInfoPOPULATION,Estimated neighborhood population
+NeighborhoodInfoDISTRICT,Police district number
+NeighborhoodInfoGlobalID,Global ID for neighborhood polygon
+DateTime,Parsed datetime from DateReport
+Date,Date portion of DateTime
+Hour,Hour of day (0–23)
+DayOfWeek,Day of week name
+TimeOfDay,Categorical time of day (Morning/Afternoon/Evening/Night)
